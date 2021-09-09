@@ -1,53 +1,44 @@
-Final Project
+<h1>Running the program</h1>
+<pre><p>connect4.py --a [algorithm] --p [player]</p></pre>
 
-#####################
-Running the program
-#####################
-connect4.py --a [algorithm] --p [player]
+<h1>Arguments</h1>
+<p><em>algorithm</em> - [MonteCarlo, NN, QL], this is your opponent</p>
+<p><em>player</em> - [1, 2], choose player 1 or 2</p>
 
-Argument description:
-algorithm - [MonteCarlo, NN, QL], this is your opponent
-player - [1, 2], choose player 1 or 2
+<h1>Example</h1>
+<pre><p>python3 connect4.py --a NN --p 1</p></pre>
 
-Example:
-python3 connect4.py --a NN --p 1
+<h1>Example Output</h1>
 
-###################
-The output
-###################
+<p> Player 1 turn (O) </p>
+<pre><p>>>> 4</p></pre>
 
-Example output:
-- - - - - - -
-- - - - - - -
-- - - - - - -
-- - - - - - -
-- - - - - - -
-- - - - - - -
+| - | - | - | - | - | - | - |
+| - | - | - | - | - | - | - |
+| - | - | - | - | - | - | - |
+| - | - | - | - | - | - | - |
+| - | - | - | - | - | - | - |
+| - | - | - | O | - | - | - |
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 
-1 2 3 4 5 6 7
->>> 4
-- - - - - - -
-- - - - - - -
-- - - - - - -
-- - - - - - -
-- - - - - - -
-- - - O - - -
+<p> Player 2 turn (X) </p>
+<pre><p>>>> 3</p></pre>
 
-1 2 3 4 5 6 7
-- - - - - - -
-- - - - - - -
-- - - - - - -
-- - - - - - -
-- - - - - - -
-- - O O - - -
+| - | - | - | - | - | - | - |
+| - | - | - | - | - | - | - |
+| - | - | - | - | - | - | - |
+| - | - | - | - | - | - | - |
+| - | - | - | - | - | - | - |
+| - | - | X | O | - | - | - |
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 
-1 2 3 4 5 6 7
->>> 3
-- - - - - - -
-- - - - - - -
-- - - - - - -
-- - - - - - -
-- - O - - - -
-- - O O - - -
+<p> Player 1 turn (O) </p>
+<pre><p>>>> 3</p></pre>
 
-1 2 3 4 5 6 7
+| - | - | - | - | - | - | - |
+| - | - | - | - | - | - | - |
+| - | - | - | - | - | - | - |
+| - | - | - | - | - | - | - |
+| - | - | O | - | - | - | - |
+| - | - | X | O | - | - | - |
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
